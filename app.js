@@ -52,6 +52,8 @@
 // for (var key in book){
 //     console.log(key, book[key]);
 
+//pg 1 end
+
 // }
 
 // var phone = {
@@ -124,6 +126,8 @@
 //   };
 // }
 
+//pg 2 end
+
 // var p1 = new Person("Ali");
 // var p2 = new Person("Ahmed");
 
@@ -171,13 +175,8 @@
 // }
 
 // var p1 = new Person("Ali");
-// console.log(p1.name); 
-// console.log(p1.age); 
-
-
-
-
-
+// console.log(p1.name);
+// console.log(p1.age);
 
 // function Student(name, marks) {
 //   this.name = name;
@@ -193,3 +192,43 @@
 // console.log(students);
 
 // 3 page done
+
+// Person.prototype.greet = function () {
+//   alert("Hello!");
+// };
+
+// p1.greet === p2.greet;
+
+// Person.prototype.species = "Human";
+
+// p1.greet = function () {
+//   alert("Hi there!");
+// };
+
+// 'greet' in p1;
+
+
+// Person.prototype.eat = function() {
+//   alert('Eating...');
+// };
+// Person.prototype.sleep = function() {
+//   alert('Sleeping...');
+// };
+
+//pg 4 done
+
+
+// Car.prototype.getInfo = function() {
+//   return this.brand + ' ' + this.year;
+// };
+
+
+// c1.getInfo === c2.getInfo
+
+
+// alert(c1.constructor === Car);
+
+
+// for (var key in Animal.prototype) {
+//   Dog.prototype[key] = Animal.prototype[key];
+// }
